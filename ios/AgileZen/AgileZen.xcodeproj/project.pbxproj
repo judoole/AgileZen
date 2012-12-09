@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4B0D048FEE64A5C0B3F2004 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B0D589300BA8A30E6C4EE8 /* UIKit.framework */; };
+		B4B0D09C753CC94154AC20E9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B0D7D72032FF01948011B1 /* SenTestingKit.framework */; };
+		B4B0D0EA775A972258503733 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B0D4B238416935B499034C /* main.m */; };
+		B4B0D105561B1212976E9A57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B0DC933830544FEAC15850 /* CoreGraphics.framework */; };
+		B4B0D17160A2DE815950DE15 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B4B0DF3AB166D9E5668D82F1 /* first.png */; };
+		B4B0D23BD53DD4D68A6219EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4B0D257321B7187BC8532A2 /* InfoPlist.strings */; };
+		B4B0D37E371989841285ACD9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4B0D03B976D19EF5B086C3E /* Default-568h@2x.png */; };
+		B4B0D37F3041B5CCF5BE78BD /* AgileZenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B0D0272300F453397F54F2 /* AgileZenTests.m */; };
+		B4B0D3F0C026C1030628CAD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B0D17220F022128BD5CE95 /* Foundation.framework */; };
+		B4B0D425A798A73C9DFEF4D6 /* AZFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B0D401066781B5A8347F82 /* AZFirstViewController.m */; };
+		B4B0D4396143CE0F5D737E41 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B0D6AAA423093F16BFEE0A /* MainStoryboard_iPhone.storyboard */; };
+		B4B0D695556676CE44ACCCE3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B4B0D28B4EF19C7D27FCDA5F /* Default.png */; };
+		B4B0D6DFDA80AADE18EC9E52 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B0D912FF8A7529A989826A /* MainStoryboard_iPad.storyboard */; };
+		B4B0D719E9A6B130672163FF /* AZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B0D1423F90ADFD7AAAD963 /* AZAppDelegate.m */; };
+		B4B0D72BBF61CC9383610978 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4B0D8EE1EF230F837CF651A /* first@2x.png */; };
+		B4B0D78117393A0AEECA730A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4B0DBE29B3004EDEA833134 /* Default@2x.png */; };
+		B4B0D839A6AC2A076D527430 /* AZSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B0DCAE6EFFA186CFA8D9A2 /* AZSecondViewController.m */; };
+		B4B0D88E7DEA93B198D35D13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B0D589300BA8A30E6C4EE8 /* UIKit.framework */; };
+		B4B0DB3BA90458EE2475B833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4B0D17220F022128BD5CE95 /* Foundation.framework */; };
+		B4B0DCB459D2E18A783C5CA1 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B4B0D028982C12781760F2E1 /* second.png */; };
+		B4B0DCD80E3519F739241F75 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4B0D53A21068E57C42ACEA9 /* second@2x.png */; };
+		B4B0DDFA0C54B2AFD62F9AFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4B0D1128EC9F65996B5D8B2 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4B0DB74AB76E06ABB69E75E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4B0DF8EC303E1D353DE771D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4B0DEC9B7EEC8179C47D44B;
+			remoteInfo = AgileZen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4B0D0272300F453397F54F2 /* AgileZenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgileZenTests.m; sourceTree = "<group>"; };
+		B4B0D028982C12781760F2E1 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B4B0D03B976D19EF5B086C3E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B4B0D1423F90ADFD7AAAD963 /* AZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZAppDelegate.m; sourceTree = "<group>"; };
+		B4B0D17220F022128BD5CE95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B4B0D28B4EF19C7D27FCDA5F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B4B0D2F5240165C2849E3F2F /* AgileZenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "AgileZenTests-Info.plist"; sourceTree = "<group>"; };
+		B4B0D390F16E42E30459FDC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B4B0D401066781B5A8347F82 /* AZFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZFirstViewController.m; sourceTree = "<group>"; };
+		B4B0D4285164CEB9BE246DEA /* AZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZAppDelegate.h; sourceTree = "<group>"; };
+		B4B0D4B238416935B499034C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4B0D53A21068E57C42ACEA9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B4B0D589300BA8A30E6C4EE8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B4B0D740DEA097286E0CEABB /* AgileZenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AgileZenTests.h; sourceTree = "<group>"; };
+		B4B0D791FEAE8C59FCAD1F75 /* AZFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZFirstViewController.h; sourceTree = "<group>"; };
+		B4B0D7D72032FF01948011B1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B4B0D85327EFF8822ACD4E7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B4B0D8EE1EF230F837CF651A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B4B0D8FBBE64CB67CE57D52B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B4B0D90B6787C97BF885D821 /* AZSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZSecondViewController.h; sourceTree = "<group>"; };
+		B4B0D9626FC3A0D8F36D39A4 /* AgileZenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgileZenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B0DAA1559E3E2CAF42B153 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B4B0DB42365A01E86309B4FE /* AgileZen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AgileZen-Prefix.pch"; sourceTree = "<group>"; };
+		B4B0DBE29B3004EDEA833134 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B4B0DC933830544FEAC15850 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B4B0DCAE6EFFA186CFA8D9A2 /* AZSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZSecondViewController.m; sourceTree = "<group>"; };
+		B4B0DD9BDEB35D9C3E567807 /* AgileZen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgileZen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B0DDB2B9B12B7F3EE5D38D /* AgileZen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "AgileZen-Info.plist"; sourceTree = "<group>"; };
+		B4B0DF3AB166D9E5668D82F1 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4B0D2B41338E8CAA641C600 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B0D88E7DEA93B198D35D13 /* UIKit.framework in Frameworks */,
+				B4B0DB3BA90458EE2475B833 /* Foundation.framework in Frameworks */,
+				B4B0D105561B1212976E9A57 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B0D7F8CA6606EB362BD237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B0D09C753CC94154AC20E9 /* SenTestingKit.framework in Frameworks */,
+				B4B0D048FEE64A5C0B3F2004 /* UIKit.framework in Frameworks */,
+				B4B0D3F0C026C1030628CAD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4B0D1261AAF8EE74E61A013 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4B0D2F5240165C2849E3F2F /* AgileZenTests-Info.plist */,
+				B4B0D1128EC9F65996B5D8B2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4B0D93CE86602B5F367B9A1 /* AgileZen */ = {
+			isa = PBXGroup;
+			children = (
+				B4B0DAB5652D50B743808020 /* Supporting Files */,
+				B4B0D4285164CEB9BE246DEA /* AZAppDelegate.h */,
+				B4B0D1423F90ADFD7AAAD963 /* AZAppDelegate.m */,
+				B4B0D6AAA423093F16BFEE0A /* MainStoryboard_iPhone.storyboard */,
+				B4B0D912FF8A7529A989826A /* MainStoryboard_iPad.storyboard */,
+				B4B0D791FEAE8C59FCAD1F75 /* AZFirstViewController.h */,
+				B4B0D401066781B5A8347F82 /* AZFirstViewController.m */,
+				B4B0DF3AB166D9E5668D82F1 /* first.png */,
+				B4B0D8EE1EF230F837CF651A /* first@2x.png */,
+				B4B0D90B6787C97BF885D821 /* AZSecondViewController.h */,
+				B4B0DCAE6EFFA186CFA8D9A2 /* AZSecondViewController.m */,
+				B4B0D028982C12781760F2E1 /* second.png */,
+				B4B0D53A21068E57C42ACEA9 /* second@2x.png */,
+			);
+			path = AgileZen;
+			sourceTree = "<group>";
+		};
+		B4B0DAAFE9AA0D3BA452F52C /* AgileZenTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4B0D1261AAF8EE74E61A013 /* Supporting Files */,
+				B4B0D740DEA097286E0CEABB /* AgileZenTests.h */,
+				B4B0D0272300F453397F54F2 /* AgileZenTests.m */,
+			);
+			path = AgileZenTests;
+			sourceTree = "<group>";
+		};
+		B4B0DAB5652D50B743808020 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4B0DDB2B9B12B7F3EE5D38D /* AgileZen-Info.plist */,
+				B4B0D257321B7187BC8532A2 /* InfoPlist.strings */,
+				B4B0D4B238416935B499034C /* main.m */,
+				B4B0DB42365A01E86309B4FE /* AgileZen-Prefix.pch */,
+				B4B0D28B4EF19C7D27FCDA5F /* Default.png */,
+				B4B0DBE29B3004EDEA833134 /* Default@2x.png */,
+				B4B0D03B976D19EF5B086C3E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4B0DB03D922705B500C7D4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4B0D589300BA8A30E6C4EE8 /* UIKit.framework */,
+				B4B0D17220F022128BD5CE95 /* Foundation.framework */,
+				B4B0DC933830544FEAC15850 /* CoreGraphics.framework */,
+				B4B0D7D72032FF01948011B1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4B0DD58F7DC0A3AFF783057 = {
+			isa = PBXGroup;
+			children = (
+				B4B0DE534802249FDDE740E0 /* Products */,
+				B4B0DB03D922705B500C7D4D /* Frameworks */,
+				B4B0D93CE86602B5F367B9A1 /* AgileZen */,
+				B4B0DAAFE9AA0D3BA452F52C /* AgileZenTests */,
+			);
+			sourceTree = "<group>";
+		};
+		B4B0DE534802249FDDE740E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4B0DD9BDEB35D9C3E567807 /* AgileZen.app */,
+				B4B0D9626FC3A0D8F36D39A4 /* AgileZenTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4B0D3D3180941A1F23D6262 /* AgileZenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4B0D99836280EA474717347 /* Build configuration list for PBXNativeTarget "AgileZenTests" */;
+			buildPhases = (
+				B4B0DD1CF78A8587902F485C /* Sources */,
+				B4B0D7F8CA6606EB362BD237 /* Frameworks */,
+				B4B0DD12B467359CD384ED0A /* Resources */,
+				B4B0D3967579C3800036736A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4B0DA48A085D9A80CDD8DC0 /* PBXTargetDependency */,
+			);
+			name = AgileZenTests;
+			productName = AgileZenTests;
+			productReference = B4B0D9626FC3A0D8F36D39A4 /* AgileZenTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B4B0DEC9B7EEC8179C47D44B /* AgileZen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4B0DD245287AF7F6CA6A82B /* Build configuration list for PBXNativeTarget "AgileZen" */;
+			buildPhases = (
+				B4B0DD7237CEDB576CB29578 /* Sources */,
+				B4B0D2B41338E8CAA641C600 /* Frameworks */,
+				B4B0DF334AD9CBD486EFD257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgileZen;
+			productName = AgileZen;
+			productReference = B4B0DD9BDEB35D9C3E567807 /* AgileZen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4B0DF8EC303E1D353DE771D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B4B0DBDF3A7C824E0F3B6622 /* Build configuration list for PBXProject "AgileZen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B4B0DD58F7DC0A3AFF783057;
+			productRefGroup = B4B0DE534802249FDDE740E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4B0DEC9B7EEC8179C47D44B /* AgileZen */,
+				B4B0D3D3180941A1F23D6262 /* AgileZenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4B0DD12B467359CD384ED0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B0DDFA0C54B2AFD62F9AFD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B0DF334AD9CBD486EFD257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B0D23BD53DD4D68A6219EA /* InfoPlist.strings in Resources */,
+				B4B0D695556676CE44ACCCE3 /* Default.png in Resources */,
+				B4B0D78117393A0AEECA730A /* Default@2x.png in Resources */,
+				B4B0D37E371989841285ACD9 /* Default-568h@2x.png in Resources */,
+				B4B0D4396143CE0F5D737E41 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B4B0D6DFDA80AADE18EC9E52 /* MainStoryboard_iPad.storyboard in Resources */,
+				B4B0D17160A2DE815950DE15 /* first.png in Resources */,
+				B4B0D72BBF61CC9383610978 /* first@2x.png in Resources */,
+				B4B0DCB459D2E18A783C5CA1 /* second.png in Resources */,
+				B4B0DCD80E3519F739241F75 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B4B0D3967579C3800036736A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4B0DD1CF78A8587902F485C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B0D37F3041B5CCF5BE78BD /* AgileZenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B0DD7237CEDB576CB29578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B0D0EA775A972258503733 /* main.m in Sources */,
+				B4B0D719E9A6B130672163FF /* AZAppDelegate.m in Sources */,
+				B4B0D425A798A73C9DFEF4D6 /* AZFirstViewController.m in Sources */,
+				B4B0D839A6AC2A076D527430 /* AZSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4B0DA48A085D9A80CDD8DC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4B0DEC9B7EEC8179C47D44B /* AgileZen */;
+			targetProxy = B4B0DB74AB76E06ABB69E75E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4B0D1128EC9F65996B5D8B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4B0D85327EFF8822ACD4E7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B4B0D257321B7187BC8532A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4B0D8FBBE64CB67CE57D52B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B4B0D6AAA423093F16BFEE0A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4B0DAA1559E3E2CAF42B153 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B4B0D912FF8A7529A989826A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4B0D390F16E42E30459FDC8 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4B0D0010E651B14DC36656A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AgileZen/AgileZen-Prefix.pch";
+				INFOPLIST_FILE = "AgileZen/AgileZen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B4B0D25D967F1F510FB06FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AgileZen.app/AgileZen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AgileZen/AgileZen-Prefix.pch";
+				INFOPLIST_FILE = "AgileZenTests/AgileZenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B4B0D2BA91EF3CF0D65B02B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4B0D5236D284E51EA326126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AgileZen.app/AgileZen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AgileZen/AgileZen-Prefix.pch";
+				INFOPLIST_FILE = "AgileZenTests/AgileZenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		B4B0DC52E5CD91916EC757D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4B0DDC6EE9FF247A34F7CC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AgileZen/AgileZen-Prefix.pch";
+				INFOPLIST_FILE = "AgileZen/AgileZen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4B0D99836280EA474717347 /* Build configuration list for PBXNativeTarget "AgileZenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B0D5236D284E51EA326126 /* Release */,
+				B4B0D25D967F1F510FB06FA7 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B4B0DBDF3A7C824E0F3B6622 /* Build configuration list for PBXProject "AgileZen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B0DC52E5CD91916EC757D6 /* Release */,
+				B4B0D2BA91EF3CF0D65B02B5 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4B0DD245287AF7F6CA6A82B /* Build configuration list for PBXNativeTarget "AgileZen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4B0D0010E651B14DC36656A /* Release */,
+				B4B0DDC6EE9FF247A34F7CC1 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4B0DF8EC303E1D353DE771D /* Project object */;
+}
