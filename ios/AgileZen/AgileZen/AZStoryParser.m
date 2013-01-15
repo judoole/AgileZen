@@ -33,6 +33,11 @@
         AZStory *thisStory = [[AZStory alloc] init];
         thisStory.id = [[parsedStory objectForKey:@"id"] integerValue];
         thisStory.text = [parsedStory objectForKey:@"text"];
+        thisStory.size = [parsedStory objectForKey:@"size"];
+        thisStory.color = [parsedStory objectForKey:@"color"];
+        thisStory.priority = [parsedStory objectForKey:@"priority"];
+        thisStory.deadline = [parsedStory objectForKey:@"deadline"];
+        thisStory.status = [parsedStory objectForKey:@"status"];
         [results addObject:thisStory];
     }
     return [results copy];

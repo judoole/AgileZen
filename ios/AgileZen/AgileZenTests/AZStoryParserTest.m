@@ -14,7 +14,7 @@ static NSString *oneStoryJSON = @"{\n"
         "            \"text\": \"List all stories of phase\",\n"
         "            \"size\": \"M\",\n"
         "            \"color\": \"blue\",\n"
-        "            \"priority\": \"\",\n"
+        "            \"priority\": \"High\",\n"
         "            \"status\": \"started\",\n"
         "            \"project\": {\n"
         "                \"id\": 49864,\n"
@@ -87,6 +87,15 @@ static NSString *emptyPhasesArray = @"{\n"
     AZStory *story = [[storyParser storiesFromJSON:oneStoryJSON error:NULL] objectAtIndex: 0];
     STAssertEquals(story.id, 1, @"The story ID should match the data we sent");
     STAssertEqualObjects(story.text, @"List all stories of phase", @"Text is not equal");
+    STAssertEqualObjects(story.size, @"M", @"Size is not equal");
+    STAssertEqualObjects(story.color, @"blue", @"Color is not equal");
+    STAssertEqualObjects(story.priority, @"High", @"Priority is not equal");
+    STAssertEqualObjects(story.status, @"started", @"Status is not equal");
+    STAssertNil(story.deadline, @"Story has no deadline");
+}
+
+- (void)test_deadline_parses_correctly{
+    STFail(@"Not implemented");
 }
 
 - (void)test_empty_items{
